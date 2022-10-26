@@ -1,0 +1,143 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F8F5F2;
+
+}
+
+.header {
+    width: 100%;
+    max-width: 1333px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.wrap {
+    width: 100%;
+    max-width: 1333px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size:large;
+    align-items: center;
+    font-weight: 700;
+}
+
+.nav li {
+    margin-left: 15px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #232323;
+}
+
+.nav_btn {
+    background-color: #078080;
+    border-radius: 25px;
+    padding: 11px 25px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.logo_img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    padding-right: 50%;
+    padding-top: 1%;
+    margin-top: 1%;
+    text-decoration: none;
+
+
+}
+.title-main {
+    font-size: 50px;
+    color:#232323;
+    font-weight: 700;
+}
+
+.text-main {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #7c7c7c;
+    font-weight: 300
+}
+
+.btn {
+    background-color: #078080;
+    border-radius: 25px;
+    padding: 11px 45px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none !important;
+}
+
+
+
+
+.page {
+    padding: 40px;
+    padding-bottom: 40px;
+    position: relative;
+
+
+}
+.page-top {
+    border-top: 1px solid #7c7c7c;
+}
+
+.wrap h2 {
+    position: absolute;
+    top:1px;
+    margin-top: -15px;
+    font-size: 14px;
+    font-weight: 300;
+    
+    padding: 5px 20px;
+    background-color:#F8F5F2;
+    
+}
+
+.services {
+    display: grid;
+    grid-template: repeat(2, 1fr) / 50% 50%;
+    grid-row-gap: 38px;
+}
+.services-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.services_img {
+    flex-basis: 165px;
+    text-align: center;
+}
+.services_text {
+    flex-basis: calc(80% - 165px);
+}
+.services h3 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 17px;
+    margin-top: 0;
+}
+.services p {
+    font-size: 14px;
+    color: #B2B2B2;
+    line-height: 1.5;
+}
+ 
+
